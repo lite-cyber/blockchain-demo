@@ -1,0 +1,38 @@
+Example Randomville State Jane Doe Medical Center
+
+Outpatient Visit Summary
+
+Name: Smith, John
+Gender: Male
+Date of Birth: 05/29/1968
+Race: White (Caucasian)
+Etinicity: Not Hispanic or Latino
+Language: English
+Attending: 
+PCP:
+
+Visit Information:
+Reason(s) for visit: 
+Aortic Valve Regurgitation,
+Abdominal Pain
+Astma
+Back Pain
+
+Location: 
+3178 Lyndon Street Pensylvania 18067
+
+Vital Signs/Measurements:
+Temperature:
+Heart Rate: 60 bpm
+Blood Preassure: 120mmHg / 80mmHg
+Height:
+Weight:
+BMI: 24.22 kg/m2
+
+Health Issues/Problems:
+Abnormal presence of protein in Urine
+Asthma due to seasonal Allergies mainly grass
+Bursitis of left hip
+Chest Pain
+
+MRN: 123456789
