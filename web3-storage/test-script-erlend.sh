@@ -1,2 +1,0 @@
-#!/bin/sh
-node web3-storage/put-files.js --token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDVmZDU2OUFCNzlGNjI5ZjQzMzg2RGEzOTI5MzIxYzM5MzE5NjMyMGEiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NTIyODY3NDYwMTMsIm5hbWUiOiJpbnRlZ3JpdHktY2hlY2sifQ.YU7Idir5PE5dB5C7OWlT6Udec0NJCu3VJybpvThBaUw dog.jpg

@@ -17,7 +17,10 @@ with open('scripts/SetHashstorage.js','w') as f:
        if line.startswith('const address'):
            line = '{}'.format(new_value)
        f.write(line)
+f.close()
+file.close()    
 
+#-------------------------------------------------------------------------
 #PART 2: Updates SetFileHash field in SetHashstorage.js to that of uploadhash.txt
 
 
@@ -35,7 +38,10 @@ with open('scripts/SetHashstorage.js','w') as f:
        if line.startswith('await hashstorage.setfilehash'):
            line = '{}'.format(new_upload_value)
        f.write(line)
+f.close()
+file.close()
 
+#-------------------------------------------------------------------------
 #Part 3: Updates TXID field in 'GetHashstorage.js'
 
 #Reads hashstorageTXID.txt and stores the TXID as a string variable.
@@ -50,8 +56,10 @@ with open('scripts/GetHashStorage.js','r') as f:
 #Updates Hashstorage Contract TXID from HashstorageTXID variable above.
 
 with open('scripts/GetHashStorage.js','w') as f:
-   new_value = "const address = '" +TXID + "';\n"
+   hash_new_value = "const address = '" +TXID + "';\n"
    for line in lines:
        if line.startswith('const address'):
-           line = '{}'.format(new_value)
+           line = '{}'.format(hash_new_value)
        f.write(line)
+f.close()
+file.close()       

@@ -3,12 +3,12 @@ async function main () {
 //make variable hashstorageTXID and read it from a txt file.
 
 // Set up an ethers contract, representing our deployed Hashstorage instance
-const address = '0xeF31027350Be2c7439C1b0BE022d49421488b72C';
+const address = '0x95401dc811bb5740090279Ba06cfA8fcF6113778';
 const Hashstorage = await ethers.getContractFactory('Hashstorage');
 const hashstorage = await Hashstorage.attach(address);
 
 // Send a transaction to set a new value in Hashstorage
-await hashstorage.setfilehash('1f8659f1623b78642b127c2972132dfe');
+await hashstorage.setfilehash('c88645499474a0525434750b1a609890');
 
 // Call the getfilehash() function of the deployed Hashstorage contract
 const value = await hashstorage.getfilehash();

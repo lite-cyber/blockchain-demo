@@ -9,16 +9,16 @@ print(output)
 
 #Prints the TXID for cidstorage to a file #Done
 import subprocess
-cidoutput = open('scripts/cidstorageTXID.txt', 'w')
-cid = output.split()
-print(cid[-1], file = cidoutput)
-cidoutput.close()
-
-#Prints the TXID for hashstorage to a file #Done
 hashoutput = open('scripts/hashstorageTXID.txt', 'w')
 hash = output.split()
-print(hash[-5], file = hashoutput)
+print(hash[-1], file = hashoutput)
 hashoutput.close()
+
+#Prints the TXID for hashstorage to a file #Done
+#hashoutput = open('scripts/hashstorageTXID.txt', 'w')
+#hash = output.split()
+#print(hash[-5], file = hashoutput)
+#hashoutput.close()
 
 
 #STEP 2: COMPLETE
