@@ -15,14 +15,6 @@ async function main() {
   await hashstorage.deployed();
 
   console.log("Hashstorage deployed to:", hashstorage.address);
-
-  // Deploys the Cidstorage Contract
-  const Cidstorage = await hre.ethers.getContractFactory("Cidstorage");
-  const cidstorage = await Cidstorage.deploy("Erlend: No CID stored yet.");
-
-  await cidstorage.deployed();
-
-  console.log("Cidstorage deployed to:", cidstorage.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
