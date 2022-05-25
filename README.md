@@ -10,6 +10,18 @@ node scripts/sample-script.js
 npx hardhat help
 ```
 
+# Refer to the Project Report for instructions on how to run this program.
+
+
+
+
+
+
+
+
+
+
+
 # This project demonstrates how file integrity checks can be aided by storing file hashes on a immutable blockchain.
 
 # The python program 'main,py' achieves this in its 9 steps, as outlined below.
